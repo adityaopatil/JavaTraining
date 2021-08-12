@@ -17,12 +17,13 @@ export class QuizComponent implements OnInit {
   mode = 'quiz';
   quizName: string;
   config: QuizConfig = {
+    //optional properties
     'allowBack': true,
     'allowReview': true,
-    'autoMove': false,  // if true, it will move to next question automatically when answered.
-    'duration': 300,  // indicates the time (in secs) in which quiz needs to be completed. 0 means unlimited.
+    'autoMove': false, 
+    'duration': 300,  
     'pageSize': 1,
-    'requiredAll': false,  // indicates if you must answer all the questions before submitting.
+    'requiredAll': false, 
     'richText': false,
     'shuffleQuestions': false,
     'shuffleOptions': false,
