@@ -1,0 +1,76 @@
+body {
+  font-style: sans-serif;
+}
+
+.btn {
+  border-radius: 0;
+  border-radius: 15px;
+}
+
+.option {
+  background-color: #caeee5;
+  font-size: 20px;
+  padding: 10px;
+  margin: 3px;
+  border-radius: 20px;
+}
+#quiz .options input[type="checkbox"] {
+  height: 22px;
+  width: 22px;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.result-question {
+  background-color: rgb(238, 238, 238);
+  margin: 4px;
+  padding: 6px;
+}
+
+.quizHeading {
+  border: 2px solid black;
+  border-radius: 5px;
+  text-align: center;
+  color: white;
+  background-color: lightskyblue;
+}
+
+.selectQuiz {
+  cursor: pointer;
+}
+
+#selectQuizOption:hover {
+  background-color: rgb(204, 204, 204);
+}
+button {
+  margin-left: 2px;
+  margin-right: 2px;
+}
+
+#timer {
+  padding: 10px;
+  font-size: large;
+  color: white;
+}
+@media screen and (max-width: 480px) {
+  h1,
+  .h1 {
+    font-size: 22px;
+  }
+  h2,
+  .h2 {
+    font-size: 20px;
+  }
+  h3,
+  .h3 {
+    font-size: 18px;
+    border: 2px solid black;
+    border-radius: 5px;
+  }
+  .option {
+    font-size: 16px;
+    padding: 6px;
+  }
+}
